@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842DC3A420CEB521000DF213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DC3A320CEB521000DF213 /* AppDelegate.swift */; };
+		842DC3A620CEB521000DF213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DC3A520CEB521000DF213 /* ViewController.swift */; };
+		842DC3A920CEB521000DF213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842DC3A720CEB521000DF213 /* Main.storyboard */; };
+		842DC3AB20CEB523000DF213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842DC3AA20CEB523000DF213 /* Assets.xcassets */; };
+		842DC3AE20CEB523000DF213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842DC3AC20CEB523000DF213 /* LaunchScreen.storyboard */; };
+		842DC3B920CEB523000DF213 /* InfinityRosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DC3B820CEB523000DF213 /* InfinityRosterTests.swift */; };
+		842DC3C420CEB523000DF213 /* InfinityRosterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DC3C320CEB523000DF213 /* InfinityRosterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		842DC3B520CEB523000DF213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842DC39820CEB521000DF213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842DC39F20CEB521000DF213;
+			remoteInfo = InfinityRoster;
+		};
+		842DC3C020CEB523000DF213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842DC39820CEB521000DF213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842DC39F20CEB521000DF213;
+			remoteInfo = InfinityRoster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		842DC3A020CEB521000DF213 /* InfinityRoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinityRoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842DC3A320CEB521000DF213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		842DC3A520CEB521000DF213 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		842DC3A820CEB521000DF213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842DC3AA20CEB523000DF213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842DC3AD20CEB523000DF213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842DC3AF20CEB523000DF213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842DC3B420CEB523000DF213 /* InfinityRosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfinityRosterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		842DC3B820CEB523000DF213 /* InfinityRosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityRosterTests.swift; sourceTree = "<group>"; };
+		842DC3BA20CEB523000DF213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842DC3BF20CEB523000DF213 /* InfinityRosterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfinityRosterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		842DC3C320CEB523000DF213 /* InfinityRosterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityRosterUITests.swift; sourceTree = "<group>"; };
+		842DC3C520CEB523000DF213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842DC39D20CEB521000DF213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842DC3B120CEB523000DF213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842DC3BC20CEB523000DF213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842DC39720CEB521000DF213 = {
+			isa = PBXGroup;
+			children = (
+				842DC3A220CEB521000DF213 /* InfinityRoster */,
+				842DC3B720CEB523000DF213 /* InfinityRosterTests */,
+				842DC3C220CEB523000DF213 /* InfinityRosterUITests */,
+				842DC3A120CEB521000DF213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842DC3A120CEB521000DF213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842DC3A020CEB521000DF213 /* InfinityRoster.app */,
+				842DC3B420CEB523000DF213 /* InfinityRosterTests.xctest */,
+				842DC3BF20CEB523000DF213 /* InfinityRosterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842DC3A220CEB521000DF213 /* InfinityRoster */ = {
+			isa = PBXGroup;
+			children = (
+				842DC3A320CEB521000DF213 /* AppDelegate.swift */,
+				842DC3A520CEB521000DF213 /* ViewController.swift */,
+				842DC3A720CEB521000DF213 /* Main.storyboard */,
+				842DC3AA20CEB523000DF213 /* Assets.xcassets */,
+				842DC3AC20CEB523000DF213 /* LaunchScreen.storyboard */,
+				842DC3AF20CEB523000DF213 /* Info.plist */,
+			);
+			path = InfinityRoster;
+			sourceTree = "<group>";
+		};
+		842DC3B720CEB523000DF213 /* InfinityRosterTests */ = {
+			isa = PBXGroup;
+			children = (
+				842DC3B820CEB523000DF213 /* InfinityRosterTests.swift */,
+				842DC3BA20CEB523000DF213 /* Info.plist */,
+			);
+			path = InfinityRosterTests;
+			sourceTree = "<group>";
+		};
+		842DC3C220CEB523000DF213 /* InfinityRosterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				842DC3C320CEB523000DF213 /* InfinityRosterUITests.swift */,
+				842DC3C520CEB523000DF213 /* Info.plist */,
+			);
+			path = InfinityRosterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842DC39F20CEB521000DF213 /* InfinityRoster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842DC3C820CEB523000DF213 /* Build configuration list for PBXNativeTarget "InfinityRoster" */;
+			buildPhases = (
+				842DC39C20CEB521000DF213 /* Sources */,
+				842DC39D20CEB521000DF213 /* Frameworks */,
+				842DC39E20CEB521000DF213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfinityRoster;
+			productName = InfinityRoster;
+			productReference = 842DC3A020CEB521000DF213 /* InfinityRoster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		842DC3B320CEB523000DF213 /* InfinityRosterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842DC3CB20CEB523000DF213 /* Build configuration list for PBXNativeTarget "InfinityRosterTests" */;
+			buildPhases = (
+				842DC3B020CEB523000DF213 /* Sources */,
+				842DC3B120CEB523000DF213 /* Frameworks */,
+				842DC3B220CEB523000DF213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842DC3B620CEB523000DF213 /* PBXTargetDependency */,
+			);
+			name = InfinityRosterTests;
+			productName = InfinityRosterTests;
+			productReference = 842DC3B420CEB523000DF213 /* InfinityRosterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		842DC3BE20CEB523000DF213 /* InfinityRosterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842DC3CE20CEB523000DF213 /* Build configuration list for PBXNativeTarget "InfinityRosterUITests" */;
+			buildPhases = (
+				842DC3BB20CEB523000DF213 /* Sources */,
+				842DC3BC20CEB523000DF213 /* Frameworks */,
+				842DC3BD20CEB523000DF213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842DC3C120CEB523000DF213 /* PBXTargetDependency */,
+			);
+			name = InfinityRosterUITests;
+			productName = InfinityRosterUITests;
+			productReference = 842DC3BF20CEB523000DF213 /* InfinityRosterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842DC39820CEB521000DF213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Badlazzor;
+				TargetAttributes = {
+					842DC39F20CEB521000DF213 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					842DC3B320CEB523000DF213 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 842DC39F20CEB521000DF213;
+					};
+					842DC3BE20CEB523000DF213 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 842DC39F20CEB521000DF213;
+					};
+				};
+			};
+			buildConfigurationList = 842DC39B20CEB521000DF213 /* Build configuration list for PBXProject "InfinityRoster" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842DC39720CEB521000DF213;
+			productRefGroup = 842DC3A120CEB521000DF213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842DC39F20CEB521000DF213 /* InfinityRoster */,
+				842DC3B320CEB523000DF213 /* InfinityRosterTests */,
+				842DC3BE20CEB523000DF213 /* InfinityRosterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842DC39E20CEB521000DF213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842DC3AE20CEB523000DF213 /* LaunchScreen.storyboard in Resources */,
+				842DC3AB20CEB523000DF213 /* Assets.xcassets in Resources */,
+				842DC3A920CEB521000DF213 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842DC3B220CEB523000DF213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842DC3BD20CEB523000DF213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842DC39C20CEB521000DF213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842DC3A620CEB521000DF213 /* ViewController.swift in Sources */,
+				842DC3A420CEB521000DF213 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842DC3B020CEB523000DF213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842DC3B920CEB523000DF213 /* InfinityRosterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842DC3BB20CEB523000DF213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842DC3C420CEB523000DF213 /* InfinityRosterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		842DC3B620CEB523000DF213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842DC39F20CEB521000DF213 /* InfinityRoster */;
+			targetProxy = 842DC3B520CEB523000DF213 /* PBXContainerItemProxy */;
+		};
+		842DC3C120CEB523000DF213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842DC39F20CEB521000DF213 /* InfinityRoster */;
+			targetProxy = 842DC3C020CEB523000DF213 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		842DC3A720CEB521000DF213 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842DC3A820CEB521000DF213 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		842DC3AC20CEB523000DF213 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842DC3AD20CEB523000DF213 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842DC3C620CEB523000DF213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		842DC3C720CEB523000DF213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842DC3C920CEB523000DF213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WAK6987QXV;
+				INFOPLIST_FILE = InfinityRoster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = badlazzor.InfinityRoster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		842DC3CA20CEB523000DF213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WAK6987QXV;
+				INFOPLIST_FILE = InfinityRoster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = badlazzor.InfinityRoster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		842DC3CC20CEB523000DF213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WAK6987QXV;
+				INFOPLIST_FILE = InfinityRosterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = badlazzor.InfinityRosterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfinityRoster.app/InfinityRoster";
+			};
+			name = Debug;
+		};
+		842DC3CD20CEB523000DF213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WAK6987QXV;
+				INFOPLIST_FILE = InfinityRosterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = badlazzor.InfinityRosterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfinityRoster.app/InfinityRoster";
+			};
+			name = Release;
+		};
+		842DC3CF20CEB523000DF213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WAK6987QXV;
+				INFOPLIST_FILE = InfinityRosterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = badlazzor.InfinityRosterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InfinityRoster;
+			};
+			name = Debug;
+		};
+		842DC3D020CEB523000DF213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WAK6987QXV;
+				INFOPLIST_FILE = InfinityRosterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = badlazzor.InfinityRosterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InfinityRoster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842DC39B20CEB521000DF213 /* Build configuration list for PBXProject "InfinityRoster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842DC3C620CEB523000DF213 /* Debug */,
+				842DC3C720CEB523000DF213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842DC3C820CEB523000DF213 /* Build configuration list for PBXNativeTarget "InfinityRoster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842DC3C920CEB523000DF213 /* Debug */,
+				842DC3CA20CEB523000DF213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842DC3CB20CEB523000DF213 /* Build configuration list for PBXNativeTarget "InfinityRosterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842DC3CC20CEB523000DF213 /* Debug */,
+				842DC3CD20CEB523000DF213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842DC3CE20CEB523000DF213 /* Build configuration list for PBXNativeTarget "InfinityRosterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842DC3CF20CEB523000DF213 /* Debug */,
+				842DC3D020CEB523000DF213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842DC39820CEB521000DF213 /* Project object */;
+}
