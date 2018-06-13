@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  InfinityRoster
 //
-//  Created by Admin on 2018. 06. 11..
+//  Created by Badlazzor on 2018. 06. 11..
 //  Copyright © 2018. Badlazzor. All rights reserved.
 //
 

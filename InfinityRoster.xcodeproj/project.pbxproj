@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841E18C420D0FDF600003026 /* Faction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841E18C320D0FDF600003026 /* Faction.swift */; };
 		842DC3A420CEB521000DF213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DC3A320CEB521000DF213 /* AppDelegate.swift */; };
 		842DC3A620CEB521000DF213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DC3A520CEB521000DF213 /* ViewController.swift */; };
 		842DC3A920CEB521000DF213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842DC3A720CEB521000DF213 /* Main.storyboard */; };
@@ -14,6 +15,15 @@
 		842DC3AE20CEB523000DF213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842DC3AC20CEB523000DF213 /* LaunchScreen.storyboard */; };
 		842DC3B920CEB523000DF213 /* InfinityRosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DC3B820CEB523000DF213 /* InfinityRosterTests.swift */; };
 		842DC3C420CEB523000DF213 /* InfinityRosterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DC3C320CEB523000DF213 /* InfinityRosterUITests.swift */; };
+		8441878E20CFF6E90024318D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8441878D20CFF6E90024318D /* Profile.swift */; };
+		8441879020CFFBBD0024318D /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8441878F20CFFBBD0024318D /* Skill.swift */; };
+		8441879220CFFBF40024318D /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8441879120CFFBF40024318D /* Equipment.swift */; };
+		8441879420CFFC240024318D /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8441879320CFFC240024318D /* Weapon.swift */; };
+		8441879620CFFC420024318D /* Trait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8441879520CFFC420024318D /* Trait.swift */; };
+		8441879820CFFC650024318D /* Ammo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8441879720CFFC650024318D /* Ammo.swift */; };
+		84B52EDA20D12185002176F7 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B52ED920D12185002176F7 /* Label.swift */; };
+		84B52EDC20D19835002176F7 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B52EDB20D19835002176F7 /* Action.swift */; };
+		84B52EDE20D19865002176F7 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B52EDD20D19865002176F7 /* Level.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		841E18C320D0FDF600003026 /* Faction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faction.swift; sourceTree = "<group>"; };
 		842DC3A020CEB521000DF213 /* InfinityRoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinityRoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842DC3A320CEB521000DF213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842DC3A520CEB521000DF213 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,15 @@
 		842DC3BF20CEB523000DF213 /* InfinityRosterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfinityRosterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842DC3C320CEB523000DF213 /* InfinityRosterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityRosterUITests.swift; sourceTree = "<group>"; };
 		842DC3C520CEB523000DF213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8441878D20CFF6E90024318D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		8441878F20CFFBBD0024318D /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		8441879120CFFBF40024318D /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
+		8441879320CFFC240024318D /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		8441879520CFFC420024318D /* Trait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trait.swift; sourceTree = "<group>"; };
+		8441879720CFFC650024318D /* Ammo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ammo.swift; sourceTree = "<group>"; };
+		84B52ED920D12185002176F7 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		84B52EDB20D19835002176F7 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		84B52EDD20D19865002176F7 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +117,7 @@
 		842DC3A220CEB521000DF213 /* InfinityRoster */ = {
 			isa = PBXGroup;
 			children = (
+				8441878C20CFF3290024318D /* Model */,
 				842DC3A320CEB521000DF213 /* AppDelegate.swift */,
 				842DC3A520CEB521000DF213 /* ViewController.swift */,
 				842DC3A720CEB521000DF213 /* Main.storyboard */,
@@ -123,6 +144,23 @@
 				842DC3C520CEB523000DF213 /* Info.plist */,
 			);
 			path = InfinityRosterUITests;
+			sourceTree = "<group>";
+		};
+		8441878C20CFF3290024318D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84B52EDB20D19835002176F7 /* Action.swift */,
+				8441879720CFFC650024318D /* Ammo.swift */,
+				8441879120CFFBF40024318D /* Equipment.swift */,
+				841E18C320D0FDF600003026 /* Faction.swift */,
+				84B52ED920D12185002176F7 /* Label.swift */,
+				84B52EDD20D19865002176F7 /* Level.swift */,
+				8441878D20CFF6E90024318D /* Profile.swift */,
+				8441878F20CFFBBD0024318D /* Skill.swift */,
+				8441879520CFFC420024318D /* Trait.swift */,
+				8441879320CFFC240024318D /* Weapon.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +295,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				842DC3A620CEB521000DF213 /* ViewController.swift in Sources */,
+				84B52EDC20D19835002176F7 /* Action.swift in Sources */,
+				8441879020CFFBBD0024318D /* Skill.swift in Sources */,
+				8441878E20CFF6E90024318D /* Profile.swift in Sources */,
 				842DC3A420CEB521000DF213 /* AppDelegate.swift in Sources */,
+				8441879620CFFC420024318D /* Trait.swift in Sources */,
+				84B52EDE20D19865002176F7 /* Level.swift in Sources */,
+				8441879220CFFBF40024318D /* Equipment.swift in Sources */,
+				8441879420CFFC240024318D /* Weapon.swift in Sources */,
+				8441879820CFFC650024318D /* Ammo.swift in Sources */,
+				84B52EDA20D12185002176F7 /* Label.swift in Sources */,
+				841E18C420D0FDF600003026 /* Faction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
